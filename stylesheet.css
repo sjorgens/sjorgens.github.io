@@ -70,12 +70,9 @@ ul {
 }
 
 .list-strengths1, .list-strengths2, .list-strengths3 {
-	background-image: url("images/seamless02.jpg");
 	font-size: 12px;
 	width: 295px;
 	float: left;
-/*	margin: auto auto auto auto;
-	padding: auto auto auto auto; */
 }
 
 .expHeader-date, .date {
