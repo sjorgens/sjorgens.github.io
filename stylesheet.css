@@ -1,8 +1,37 @@
+html, body, h1, h2, h3, p, ul, ol, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
 body {
 	font-family: Georgia, Times, serif;
 	color: #efefef;
 	text-shadow: 2px 2px 7px #111111;
 	background-color: #efefef;
+	padding: 20px 20px 20px 20px;
+}
+
+h1 {
+	margin: 10px 0 15px 0;
+	text-align: center;
+}
+
+h2 {
+	margin: 10px 0 20px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	margin: 15px 0 15px 0;
+	font-style: italic;
+	font-weight: normal;
+}
+
+ul {
+	margin: 0 0 5px 0;
+	padding: 0 0 0 50px;
 }
 
 #container {
@@ -31,9 +60,13 @@ body {
 	padding: 15px;
 	margin: 15px 15px 15px 15px;
 	border-width: 5px;
-	border-radius: 50px;
+	border-radius: 25px;
 	border-color: black;
 	border-style: double;
+}
+
+#bailiwick1, #cargill, #bailiwick2, #intercept {
+	margin: 0 0 10px 0;
 }
 
 .list-strengths1, .list-strengths2, .list-strengths3 {
@@ -60,6 +93,7 @@ div {
 }
 
 a {
+	margin: 5px 0 5px 0;
 	font-weight: bold;
 	font-size: 18px;
 }
@@ -79,27 +113,14 @@ a:hover {
 }
 
 p {
+	margin: 5px 0 5px 0;
 	font-size: 14px;
 }
 
-p.header{
-	text-align: center;
+.address, .phone, .email {
+	margin: 0 0 0 0;
 }
 
 li {
 	font-size: 14px;
-}
-
-h1 {
-	text-align: center;
-}
-
-h2 {
-	text-align: center;
-	text-transform: uppercase;
-}
-
-h4 {
-	font-style: italic;
-	font-weight: normal;
 }
